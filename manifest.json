@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Job Saver",
+    "version": "1.0",
+    "description": "Save job listings for future reference.",
+
+    "permissions": ["storage", "activeTab", "scripting"],
+
+    "host_permissions": ["*://*/*"],
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}
