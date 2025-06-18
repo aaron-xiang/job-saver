@@ -2,11 +2,11 @@
 
 A Chrome browser extension designed to help job seekers save and organize job listings during their job hunt process. Never lose track of job descriptions again when listings get deleted!
 
-## 🎯 Problem Solved
+## Problem Solved
 
 Have you ever applied to a job, only to find that the job listing was deleted before your interview? This extension solves that problem by automatically capturing and storing job details for future reference.
 
-## ✨ Features
+## Features
 
 - **Auto-Extract Job Data**: Automatically captures job title, company name, and description from popular job sites
 - **Manual Editing**: Review and edit extracted information before saving
@@ -16,7 +16,7 @@ Have you ever applied to a job, only to find that the job listing was deleted be
 - **Date Tracking**: Automatically records when you saved each job
 - **Cross-Platform**: Works on major job sites including Indeed, LinkedIn, SEEK, and more
 
-## 🚀 Installation
+## Installation
 
 ### From Source (Development)
 1. Clone or download this repository
@@ -25,7 +25,7 @@ Have you ever applied to a job, only to find that the job listing was deleted be
 4. Click "Load unpacked" and select the extension folder
 5. The Job Saver extension should now appear in your extensions toolbar
 
-## 📖 How to Use
+## How to Use
 
 ### Saving a Job
 1. **Navigate to a job listing** on any job site (Indeed, LinkedIn, SEEK, etc.)
@@ -49,7 +49,7 @@ Have you ever applied to a job, only to find that the job listing was deleted be
 - You can delete individual jobs at any time
 - Data persists across browser sessions
 
-## 🌐 Supported Job Sites
+## Supported Job Sites
 
 The extension works on most job sites and includes optimized selectors for:
 - **Indeed** (indeed.com)
@@ -59,7 +59,7 @@ The extension works on most job sites and includes optimized selectors for:
 
 Even if a site isn't specifically supported, you can manually enter job details.
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Technologies Used
 - **Manifest V3**: Latest Chrome extension standard
@@ -76,7 +76,7 @@ Even if a site isn't specifically supported, you can manually enter job details.
 - Edge (Chromium-based)
 - Other Chromium-based browsers
 
-## 🛠️ Development
+## Development
 
 ### Prerequisites
 - Basic knowledge of JavaScript, HTML, CSS
@@ -95,7 +95,7 @@ Even if a site isn't specifically supported, you can manually enter job details.
 - **`content.js`**: Extracts job data from web pages
 - **`db.js`**: Database operations using IndexedDB
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Extension Not Working
 - Ensure you've enabled the extension in `chrome://extensions/`

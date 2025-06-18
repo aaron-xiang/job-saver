@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
-  // Delete job function (no longer needs to be on window)
+  // Delete job function
   async function deleteJobById(id) {
     console.log("Delete function called with ID:", id, typeof id);
     
