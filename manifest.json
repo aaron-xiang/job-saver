@@ -4,14 +4,17 @@
     "version": "1.0",
     "description": "Save job listings for future reference.",
 
-    "permissions": ["storage", "activeTab", "scripting"],
-
-    "host_permissions": ["*://*/*"],
+    "permissions": ["storage"],
 
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "js": ["content.js"]
         }
-    ]
+    ],
+
+    "action": {
+        "default_popup": "popup.html"
+    }
 }
+
