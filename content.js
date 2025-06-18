@@ -15,7 +15,6 @@ function scrapeJobData() {
 
   // Try different selectors for popular job sites
   const titleSelectors = [
-    'h1[data-automation="job-detail-title"]', // SEEK
     '.jobsearch-JobInfoHeader-title', // Indeed
     '[data-testid="job-title"]', // LinkedIn
     '.job-title',
@@ -25,7 +24,6 @@ function scrapeJobData() {
   ];
 
   const companySelectors = [
-    '[data-automation="advertiser-name"]', // SEEK
     '.jobsearch-InlineCompanyRating', // Indeed
     '.job-details-jobs-unified-top-card__company-name', // LinkedIn
     '.company-name',
@@ -34,7 +32,6 @@ function scrapeJobData() {
   ];
 
   const descriptionSelectors = [
-    '[data-automation="jobAdDetails"]', // SEEK
     '.jobsearch-jobDescriptionText', // Indeed
     '.jobs-description-content', // LinkedIn
     '.job-description',
