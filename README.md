@@ -1,6 +1,6 @@
 # Job Saver Browser Extension
 
-A Firefox browser extension designed to help job seekers save and organize job listings during their job hunt process. Never lose track of job descriptions again when listings get deleted!
+A Chrome browser extension designed to help job seekers save and organize job listings during their job hunt process. Never lose track of job descriptions again when listings get deleted!
 
 ## 🎯 Problem Solved
 
