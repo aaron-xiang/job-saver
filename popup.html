@@ -3,40 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Job Hunt Helper</title>
-  <script src="db.js"></script>
-  <script src="popup.js" defer></script>
+  <title>Job Saver</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      padding: 10px;
+      padding: 15px;
+      width: 400px;
+      max-height: 600px;
+      overflow-y: auto;
     }
     input, textarea, button {
       display: block;
       margin-bottom: 10px;
       width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
     }
-    ul {
-      padding: 0;
-      list-style-type: none;
+    textarea {
+      height: 80px;
+      resize: vertical;
     }
-    li {
-      margin-bottom: 5px;
-      border: 1px solid #ccc;
-      padding: 5px;
-      border-radius: 5px;
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    h2, h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    #jobList {
+      max-height: 300px;
+      overflow-y: auto;
     }
   </style>
 </head>
 <body>
-  <h2>Job Hunt Helper</h2>
+  <h2>Job Saver</h2>
   <input id="jobTitle" placeholder="Job Title" />
   <input id="company" placeholder="Company" />
-  <textarea id="description" placeholder="Job Description"></textarea>
+  <textarea id="description" placeholder="Job Description (optional)"></textarea>
   <button id="saveJob">Save Job</button>
+  
   <h3>Saved Jobs</h3>
   <div id="jobList"></div>
-  <!-- <ul id="jobsList"></ul> -->
+
+  <script src="db.js"></script>
+  <script src="popup.js"></script>
 </body>
-<script src="popup.js"></script>
 </html>
